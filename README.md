@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MarkovSergii/translit-english-ukrainian.svg?branch=master)](https://travis-ci.org/MarkovSergii/translit-english-ukrainian)
+
 # translit-english-ukrainian
 Util for transliteration from english to ukrainian
 Про впорядкування транслітерації з латиницi на українську
