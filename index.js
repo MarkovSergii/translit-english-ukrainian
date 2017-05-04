@@ -100,9 +100,7 @@ let convert = (word)=>{
   let result = word;
   R.mapObjIndexed((num, key, obj)=>{
     const reg =  new RegExp(key, 'g');
-    const _result = result
     result = result.replace(reg,obj[key]);
-    if (_result!= result) console.log(result, obj[key])
   },matches)
 
   return result.trim()
