@@ -8,9 +8,9 @@ Util for transliteration from english to ukrainian
 
 ---
 ## Installation
-
+```
 $ npm install translit-english-ukrainian --save
-
+```
 ## Usage
 ```
 const convert = require('translit-english-ukrainian')
@@ -18,7 +18,7 @@ const convert = require('translit-english-ukrainian')
 let word = 'Shcherbukhy';
 let result = convert(word); 
 
-consolre.log();  // Щербухи
+console.log(result);  // Щербухи
 ```
 
 ## License
